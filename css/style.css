@@ -1,0 +1,43 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+body { background-color: #f0f2f5; padding: 10px; }
+.main-container { max-width: 600px; margin: 0 auto; }
+
+.card { 
+    background: white; 
+    border-radius: 12px; 
+    padding: 15px; 
+    margin-bottom: 15px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+}
+
+.summary-info {
+    display: flex;
+    justify-content: space-around;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+.info-box { text-align: center; }
+.info-box small { display: block; text-transform: uppercase; font-size: 0.7rem; color: #bdc3c7; }
+.info-box span { font-size: 1.8rem; font-weight: bold; color: #f1c40f; }
+
+h2 { font-size: 0.85rem; color: #7f8c8d; margin-bottom: 12px; text-transform: uppercase; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+
+.drop-zone { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    min-height: 80px; 
+    justify-content: center; 
+    align-items: center;
+}
+.empty-zone { border: 2px dashed #dfe6e9; background: #fafafa; }
+#box3.empty-zone { background-color: #fdf2f2; border-color: #fadbd8; } /* Cor sutil para o descarte */
+
+.mov { 
+    width: 48px; 
+    cursor: pointer; 
+    transition: transform 0.1s; 
+    user-select: none; /* Evita selecionar a imagem no clique duplo */
+}
+.mov:active { transform: scale(0.9); }

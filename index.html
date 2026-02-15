@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominó Pro - Simplificado</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dominó Pro</h1>
+    </header>
+    
+    <main class="main-container">
+        <!-- Resumo de Pontos e Jogada -->
+        <section class="card summary-info">
+            <div class="info-box">
+                <small>Pontos na Mão</small>
+                <span id="total-pontos">0</span>
+            </div>
+            <div class="info-box">
+                <small>Última Jogada</small>
+                <span id="ultima-jogada">---</span>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Estoque</h2>
+            <div id="box1" class="drop-zone">
+                <!-- Adicione suas peças aqui -->
+                <img src="images/pecasDomino/6-6.png" alt="6-6" class="mov" data-val="6-6">
+                <img src="images/pecasDomino/6-5.png" alt="6-5" class="mov" data-val="6-5">
+                <img src="images/pecasDomino/6-4.png" alt="6-4" class="mov" data-val="6-4">
+                <img src="images/pecasDomino/6-3.png" alt="6-3" class="mov" data-val="6-3">
+                <img src="images/pecasDomino/6-2.png" alt="6-2" class="mov" data-val="6-2">
+                <img src="images/pecasDomino/6-1.png" alt="6-1" class="mov" data-val="6-1">
+                <img src="images/pecasDomino/6-0.png" alt="6-0" class="mov" data-val="6-0">
+                
+                <img src="images/pecasDomino/5-5.png" alt="5-5" class="mov" data-val="5,5">
+                <img src="images/pecasDomino/5-4.png" alt="5-4" class="mov" data-val="5,5">
+                <img src="images/pecasDomino/5-3.png" alt="5-3" class="mov" data-val="5,5">
+                <img src="images/pecasDomino/5-2.png" alt="5-2" class="mov" data-val="5,5">
+                <img src="images/pecasDomino/5-1.png" alt="5-1" class="mov" data-val="5,5">
+                <img src="images/pecasDomino/5-0.png" alt="5-0" class="mov" data-val="5,5">
+            
+                <img src="images/pecasDomino/4-4.png" alt="4-4" class="mov" data-val="4,4">
+                <img src="images/pecasDomino/4-3.png" alt="4-3" class="mov" data-val="4,3">
+                <img src="images/pecasDomino/4-2.png" alt="4-2" class="mov" data-val="4,2">
+                <img src="images/pecasDomino/4-1.png" alt="4-1" class="mov" data-val="4,1">
+                <img src="images/pecasDomino/4-0.png" alt="4-0" class="mov" data-val="4,0">
+
+                <img src="images/pecasDomino/3-3.png" alt="3-3" class="mov" data-val="3,3">
+                <img src="images/pecasDomino/3-2.png" alt="3-2" class="mov" data-val="3,2">
+                <img src="images/pecasDomino/3-1.png" alt="3-1" class="mov" data-val="3,1">
+                <img src="images/pecasDomino/3-0.png" alt="3-0" class="mov" data-val="3,0">
+
+                <img src="images/pecasDomino/2-2.png" alt="2-2" class="mov" data-val="2,2">
+                <img src="images/pecasDomino/2-1.png" alt="2-1" class="mov" data-val="2,1">
+                <img src="images/pecasDomino/2-0.png" alt="2-0" class="mov" data-val="2,0">
+
+                <img src="images/pecasDomino/1-1.png" alt="1-1" class="mov" data-val="1,1">
+                <img src="images/pecasDomino/1-0.png" alt="1-0" class="mov" data-val="1,0">
+
+                 <img src="images/pecasDomino/0-0.png" alt="0-0" class="mov" data-val="0,0">
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Minha</h2>
+            <div id="box2" class="drop-zone empty-zone"></div>
+        </section>
+
+       
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
